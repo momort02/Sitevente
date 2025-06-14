@@ -1,7 +1,7 @@
 const products = [
     {
         name: "Fusil assaut avec silencieux",
-        modelUrl: "models/Rifle_with_Suppressor_0517204445_texture.glb",
+        modelUrl: "Rifle_with_Suppressor_0517204445_texture.glb",
         price: "4.99€"
     },
     {
