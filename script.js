@@ -16,18 +16,17 @@ const products = [
     }
 ];
 
-const productList = document.getElementById('product-list');
+const productsContainer = document.getElementById("products");
 
 products.forEach(product => {
-    const card = document.createElement('div');
-    card.className = 'product-card';
+  const productCard = document.createElement("div");
+  productCard.classList.add("product-card");
 
-    card.innerHTML = `
-        <model-viewer src="${product.modelUrl}" alt="${product.name}" camera-controls auto-rotate exposure="1" shadow-intensity="1"></model-viewer>
-        <div class="product-info">
-            <span class="product-title">${product.name}</span>
-            <button class="buy-button">Acheter - ${product.price}</button>
-        </div>
-    `;
-    productList.appendChild(card);
+  productCard.innerHTML = `
+    <model-viewer src="${product.modelPath}" alt="${product.name}" auto-rotate camera-controls></model-viewer>
+    <p>${product.name}</p>
+    <a class="gumroad-button" href="${product.gumroadLink}" target="_blank">Acheter ce modèle 3D sur Gumroad</a>
+  `;
+
+  productsContainer.appendChild(productCard);
 });
