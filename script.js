@@ -2,7 +2,7 @@ const products = [
     {
         name: "Fusil assaut avec silencieux",
         modelUrl: "Rifle_with_Suppressor_0517204445_texture.glb",
-        price: "4.99€"
+        gumroadLink: "https://momoart5.gumroad.com/l/Rifle_with_Suppressor"
     },
     {
         name: "Astronaute",
