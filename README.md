@@ -17,7 +17,17 @@ Ce projet permet de présenter des modèles 3D au format `.glb` avec prévisuali
 
 ## 📁 Structure du projet
 
-/index.html             # Page principale /styles/styles.css      # Feuille de style /scripts/script.js      # Script JavaScript (dynamise l'affichage des produits) /models/                # Contient les fichiers 3D .glb ├── robot.glb ├── astronaut.glb └── house.glb /README.md              # Ce fichier
+.
+├── index.html
+├── README.md
+├── /styles
+│   └── styles.css
+├── /scripts
+│   └── script.js
+└── /models
+    ├── Rifle_with_Suppressor_0517204445_texture.glb
+    ├── astronaut.glb
+    └── house.glb
 
 ---
 
