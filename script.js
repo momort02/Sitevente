@@ -41,11 +41,11 @@ products.forEach(product => {
     productsContainer.appendChild(productCard);
 });
 window.onload = () => {
-  const popup = document.getElementById('language-popup');
+  const banner = document.getElementById('language-banner');
   const selectedLang = localStorage.getItem('lang');
 
   if (!selectedLang) {
-    popup.style.display = 'flex';
+    banner.style.display = 'flex';
   } else {
     applyLanguage(selectedLang);
   }
@@ -53,17 +53,17 @@ window.onload = () => {
 
 function setLanguage(lang) {
   localStorage.setItem('lang', lang);
-  document.getElementById('language-popup').style.display = 'none';
+  document.getElementById('language-banner').style.display = 'none';
   applyLanguage(lang);
 }
 
 function applyLanguage(lang) {
   const header = document.querySelector('header h1');
-  
+
   if(lang === 'fr') {
     header.textContent = 'Boutique de Modèles 3D';
   } else if(lang === 'en') {
     header.textContent = '3D Model Shop';
   }
-  // Ici tu peux aussi traduire d'autres éléments si besoin
+  // ici tu peux traduire d'autres textes plus tard
 }
