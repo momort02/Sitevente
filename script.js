@@ -1,13 +1,13 @@
 const products = [
     {
         name: "Fusil assaut avec silencieux",
-        imageUrl: "th (10).jpeg", 
+        imageUrl: "assets/th (10).jpeg", 
         gumroadLink: "https://momoart5.gumroad.com/l/Rifle_with_Suppressor"
     },
     {
-        name: "Astronaute",
-        modelUrl: "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
-        gumroadLink: "https://exemple.com/astronaute"
+        name: "Minecraft",
+        imageUrl: "assets/Capture d'écran 2025-06-15 180443.png",
+        gumroadLink: "https://momoart5.gumroad.com/l/minecraft_creeper"
     },
     {
         name: "Buste",
