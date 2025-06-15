@@ -1,7 +1,7 @@
 const products = [
     {
         name: "Fusil assaut avec silencieux",
-        modelUrl: "Rifle_with_Suppressor_0517204445_texture.glb", // chemin local
+        imageUrl:"th (10).jpeg",
         gumroadLink: "https://momoart5.gumroad.com/l/Rifle_with_Suppressor"
     },
     {
