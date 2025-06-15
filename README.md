@@ -20,13 +20,11 @@ Ce projet permet de présenter des modèles 3D au format `.glb` avec prévisuali
 - index.html
 - README.md
 - /styles/
-  - styles.css
+  - style.css
 - /scripts/
   - script.js
 - /models/
   - Rifle_with_Suppressor.glb
-  - astronaut.glb
-  - house.glb
 
 ---
 
