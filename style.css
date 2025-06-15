@@ -57,3 +57,18 @@ model-viewer {
 .buy-button:hover {
     background: #45a049;
 }
+.gumroad-button {
+  display: inline-block;
+  padding: 12px 20px;
+  margin-top: 10px;
+  background-color: #FF90E8;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.gumroad-button:hover {
+  background-color: #e06cc3;
+}
