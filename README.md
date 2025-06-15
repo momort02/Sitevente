@@ -1,17 +1,14 @@
 # 🛍️ 3D Model Shop – Boutique de Modèles 3D Mobile
 
-Bienvenue sur **3D Model Shop**, un site de démonstration de boutique en ligne de modèles 3D optimisé pour les téléphones mobiles.  
-Ce projet permet de présenter des modèles 3D au format `.glb` avec prévisualisation interactive directement dans le navigateur.
+Bienvenue sur **3D Model Shop**, boutique en ligne de modèles 3D optimisé pour les téléphones mobiles.  
 
 ---
 
 ## 🚀 Fonctionnalités
 
 - 📱 Interface 100% responsive (adaptée aux smartphones)
-- 🔍 Prévisualisation des modèles 3D grâce à la balise `<model-viewer>`
 - 🛒 Liste de produits avec nom et prix
 - 🎨 Design simple, épuré et moderne
-- 📦 Chargement de modèles 3D locaux depuis le dossier `/models/`
 
 ---
 
@@ -23,9 +20,7 @@ Ce projet permet de présenter des modèles 3D au format `.glb` avec prévisuali
   - style.css
 - /scripts/
   - script.js
-- /models/
-  - Rifle_with_Suppressor.glb
-
+    
 ---
 
 ## 🧩 Technologies utilisées
@@ -33,8 +28,7 @@ Ce projet permet de présenter des modèles 3D au format `.glb` avec prévisuali
 - **HTML5** (structure)
 - **CSS3** (design responsive)
 - **JavaScript** (chargement dynamique des produits)
-- **[<model-viewer>](https://modelviewer.dev/)** (visualisation des modèles 3D)
-
+- **Gumroad** (vente des fichiers)
 
 ---
 
@@ -44,21 +38,15 @@ Ajouter un panier d'achat local (localStorage)
 
 Intégrer une page de détails pour chaque modèle
 
-Simulation de paiement
-
-
-
 ---
 
 👤 Auteur
 
-Amaury Goemaere — Projet Frontend de démonstration
-
+Amaury Goemaere — Projet Frontend 
 
 ---
 
 📝 Licence
 
-Projet libre d'utilisation à but pédagogique.
-
+Licence MIT
 ---
