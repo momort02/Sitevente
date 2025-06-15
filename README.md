@@ -24,7 +24,7 @@ Ce projet permet de présenter des modèles 3D au format `.glb` avec prévisuali
 - /scripts/
   - script.js
 - /models/
--Rifle_with_Suppressor.glb
+  -Rifle_with_Suppressor.glb
   - astronaut.glb
   - house.glb
 
